@@ -1,0 +1,15 @@
+server:
+  port: ${PORT:8080}
+
+spring:
+  application:
+    name: aspora
+
+openmeteo:
+  base-url: https://api.open-meteo.com/v1
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
